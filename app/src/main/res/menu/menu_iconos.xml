@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/paleta"
+        android:icon="@drawable/paleta"
+        android:title="Paleta"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/cRojo"
+                android:icon="@drawable/rojo"
+                android:title="Rojo"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/cVerde"
+                android:icon="@drawable/verde"
+                android:title="Verde"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/cAzul"
+                android:icon="@drawable/azul"
+                android:title="Azul"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/cNegro"
+                android:icon="@drawable/negro"
+                android:title="Negro"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/cBlanco"
+                android:icon="@drawable/blanco"
+                android:title="Blanco"
+                app:showAsAction="collapseActionView" />
+        </menu>
+        </item>
+    <item android:id="@+id/grosor"
+        android:icon="@drawable/medida"
+        android:title="Grosor"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/p1"
+                android:icon="@drawable/p1"
+                android:title="1"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/p2"
+                android:icon="@drawable/p2"
+                android:title="2"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/p4"
+                android:icon="@drawable/p4"
+                android:title="4"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/p6"
+                android:icon="@drawable/p6"
+                android:title="6"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/p8"
+                android:icon="@drawable/p8"
+                android:title="8"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/p10"
+                android:icon="@drawable/p10"
+                android:title="10"
+                app:showAsAction="collapseActionView" />
+        </menu>
+    </item>
+    <item android:id="@+id/borrar"
+        android:icon="@drawable/borrar"
+        android:title="Borrador"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/bChico"
+                android:icon="@drawable/p2"
+                android:title="Pequeño"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/bNormal"
+                android:icon="@drawable/p4"
+                android:title="Normal"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/bGrande"
+                android:icon="@drawable/p10"
+                android:title="Grande"
+                app:showAsAction="collapseActionView" />
+        </menu>
+    </item>
+    <item android:id="@+id/grabar"
+        android:icon="@drawable/guardar"
+        android:title="Guardar"
+        app:showAsAction="always" />
+</menu>
